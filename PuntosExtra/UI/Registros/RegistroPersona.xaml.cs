@@ -26,9 +26,9 @@ namespace PuntosExtra.UI.Registros
         }
         public void Limpiar()
         {
-            PersonaIdTex.Text = string.Empty;
-            
-            NombreTex.Text = string.Empty;        
+            PersonaIdTex.Text = string.Empty;         
+            NombreTex.Text = string.Empty;
+            PersonaIdTex.Text = "0";
         }
 
         private Personas LlenaClase()

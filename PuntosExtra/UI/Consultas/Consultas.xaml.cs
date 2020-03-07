@@ -20,7 +20,7 @@ namespace PuntosExtra.UI.Consultas
     /// </summary>
     public partial class Consultas : Window
     {
-        private readonly object ConsultaDateGridView;
+        
 
         public Consultas()
         {
@@ -57,8 +57,8 @@ namespace PuntosExtra.UI.Consultas
 
             }
 
-        //    ConsultaDateGridView.ItemsSource = null;
-        //    ConsultaDateGridView.ItemsSource = listado;
+            ConsultaDateGridView.ItemsSource = null;
+            ConsultaDateGridView.ItemsSource = listado;
         }
     }
 }
