@@ -26,10 +26,9 @@ namespace PuntosExtra.UI.Registros
         }
         public void Limpiar()
         {
-            PersonaIdTex.Text = "0";
+            PersonaIdTex.Text = string.Empty;
             
-            NombreTex.Text = string.Empty;
-           
+            NombreTex.Text = string.Empty;        
         }
 
         private Personas LlenaClase()
@@ -39,7 +38,6 @@ namespace PuntosExtra.UI.Registros
             personas.Nombre = NombreTex.Text;
             return personas;
         }
-
         private void LlenaCampo(Personas personas)
         {
             PersonaIdTex.Text = Convert.ToString(personas.PersonaId);           
@@ -49,7 +47,6 @@ namespace PuntosExtra.UI.Registros
         private void NuevoButtton_Click(object sender, RoutedEventArgs e)
         {
             Limpiar();
-
         }
         private bool ExisteEnLaBaseDeDatos()
         {

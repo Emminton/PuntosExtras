@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PuntosExtra.UI.Consultas;
+using PuntosExtra.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,18 @@ namespace PuntosExtra
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RegistroPersona re = new RegistroPersona();
+            re.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Consultas con = new Consultas();
+            con.Show();
         }
     }
 }
