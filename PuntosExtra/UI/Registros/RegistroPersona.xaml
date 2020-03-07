@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PuntosExtra.UI.Registros"
         mc:Ignorable="d"
-        Title="RegistroPersona" Height="450" Width="800">
+        Title="RegistroPersona" Height="450" Width="550">
     <Grid>
-        
+        <Label Content="PersonaId" HorizontalAlignment="Left" Margin="64,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PersonaIdTex" HorizontalAlignment="Left" Margin="172,65,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="31"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="64,180,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NombreTex" HorizontalAlignment="Left" Margin="172,169,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Height="37"/>
+        <Button x:Name="BuscarButton" Content="Buscar" HorizontalAlignment="Left" Margin="418,39,0,0" VerticalAlignment="Top" Height="61" Width="75" Click="BuscarButton_Click"/>
+        <Button x:Name="NuevoButton" Content="Nuevo" HorizontalAlignment="Left" Margin="64,283,0,0" VerticalAlignment="Top" Height="53" Width="68" Click="NuevoButton_Click"/>
+        <Button x:Name="GuardarButton" Content="Guardar" HorizontalAlignment="Left" Margin="232,283,0,0" VerticalAlignment="Top" Height="53" Width="96" Click="GuardarButton_Click"/>
+        <Button x:Name="EliminarButton" Content="Eliminar" HorizontalAlignment="Left" Margin="392,283,0,0" VerticalAlignment="Top" Width="101" Height="53" Click="EliminarButton_Click"/>
+
     </Grid>
 </Window>
