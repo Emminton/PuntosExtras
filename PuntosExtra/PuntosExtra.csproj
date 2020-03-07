@@ -11,8 +11,4 @@
     <PackageReference Include="Microsoft.EntityFrameWorkCore.SqLite" Version="3.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UI\Consultas\" />
-  </ItemGroup>
-
 </Project>
